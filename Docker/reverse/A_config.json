@@ -34,9 +34,6 @@
     {
       "protocol":"freedom",
       "settings":{
-        "domainStrategy": "AsIs",
-        "redirect": "c地址:端口",
-        "userLevel": 0
       },
       "tag":"out"
     }

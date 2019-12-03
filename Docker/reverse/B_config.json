@@ -36,6 +36,8 @@
       "port":11873,
       "protocol":"dokodemo-door",
       "settings":{
+        "address": "c",
+        "port":"c",
         "network": "tcp,udp"
       }
     }
