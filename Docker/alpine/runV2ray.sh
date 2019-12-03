@@ -23,9 +23,9 @@ if [ ! -z "${speedtest}" ]
         sed -i "s/\"SpeedTestCheckRate\": 6/\"SpeedTestCheckRate\": ${speedtest}/g" "/etc/v2ray/config.json"
 fi
 
-if [ ! -z "${checkRate}" ]
+if [ ! -z "${checkrate}" ]
     then
-        sed -i "s/\"checkRate\": 60/\"checkRate\": ${checkRate}/g" "/etc/v2ray/config.json"
+        sed -i "s/\"checkRate\": 60/\"checkRate\": ${checkrate}/g" "/etc/v2ray/config.json"
 fi
 
 if [ ! -z "${downWithPanel}" ]
